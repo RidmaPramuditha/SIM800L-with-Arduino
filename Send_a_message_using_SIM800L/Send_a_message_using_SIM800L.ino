@@ -18,9 +18,9 @@ void setup() {
 
   // to send message use these 3 statements, upto write(26)
   // change ZZ with country code and xxxxxxxxxxx with phone number to sms
-  mySerial.println("AT+CMGS=\"+ZZxxxxxxxxxx\""); // 1)
+  mySerial.println("AT+CMGS=\"+94769043517\""); // 1)
   updateSerial();
-  mySerial.print("MERCURY LABS"); // 2) text content 
+  mySerial.print("Hi, We are Genius Bit Academy"); // 2) text content 
   updateSerial();
   mySerial.write(26); // 3)
 }
